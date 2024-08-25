@@ -35,3 +35,28 @@ const myFunction = function(){
 } // function
 
 // console.log(typeof heros)
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack (primitive)---copy, Heap (non-primitive)-----reference banegi original me change
+
+let myYoutubename = "garimabhatiadotcom"
+
+let anothername = myYoutubename
+anothername ="gggg"
+console.log(anothername);
+console.log(myYoutubename)
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "garima@google.com"
+console.log(userOne.email)
+console.log(userTwo.email)
+
